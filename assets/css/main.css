@@ -15,3 +15,82 @@
   height: 1007px;
   width: 100%;
 }
+
+@media (max-width: 992px) {
+  nav {
+    display: none !important;
+  }
+  .text-light {
+    width: 384px !important;
+    left: 5rem !important;
+    bottom: -2rem !important;
+    height: 160px !important;
+  }
+  h2 {
+    font-size: 1rem !important;
+  }
+  p {
+    font-size: 10px !important;
+  }
+  .sct1 {
+    height: 350px !important;
+  }
+  .sct2 {
+    height: auto !important;
+  }
+  .mt-4 {
+    height: 300px !important;
+  }
+  .col-md-12 {
+    justify-content: center !important;
+    display: flex !important;
+  }
+  .row {
+    margin-top: 1.8rem !important;
+  }
+  footer {
+    height: auto !important;
+  }
+  .footer-content {
+    height: auto !important;
+  }
+  .footer-heading {
+    height: 30px !important;
+  }
+}
+@media (max-width: 600px) {
+  .box {
+    width: 100% !important;
+  }
+  .sct1 {
+    height: 280px !important;
+  }
+  .text-light {
+    width: 198px !important;
+    left: 4rem !important;
+    bottom: -3rem !important;
+    height: 149px !important;
+  }
+  h2 {
+    font-size: 0.7rem !important;
+  }
+  p {
+    font-size: 7px !important;
+  }
+  img, svg {
+    width: 100% !important;
+  }
+  .author {
+    width: 28% !important;
+  }
+  .footer-heading {
+    height: 15px !important;
+  }
+  .row {
+    width: 100% !important;
+  }
+  .footer-bottom {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
